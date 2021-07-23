@@ -24,3 +24,4 @@ netfilter-persistent save
 apt update
 apt upgrade -y
 curl -sfL https://raw.githubusercontent.com/markopolo123/faasd/master/hack/install.sh | sh -s -
+reboot
