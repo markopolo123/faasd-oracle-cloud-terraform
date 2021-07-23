@@ -1,0 +1,58 @@
+# Oracle Cloud Infrastructure Authentication details
+# THIS IS NOT THE SAME AS YOUR NORMAL SSH KEY
+# Replace with the fingerprint of your oracle key
+oracle_api_key_fingerprint = ""
+
+# Replace with the path to your private oracle key
+oracle_api_private_key_path = ""
+
+###################
+# User OCID
+user_ocid = ""
+
+###################
+# Tenancy OCID
+tenancy_ocid = ""
+
+###################
+# Compartment OCID
+compartment_ocid = ""
+
+###################
+# Region
+# List available: https://docs.cloud.oracle.com/en-us/iaas/Content/General/Concepts/regions.htm
+region = "uk-london-1"
+
+###################
+# The display name of our new machine within Oracle's console
+instance_display_name = "faasd"
+
+###################
+## Your SSH Details used to access the server
+# Fill in with your own public key signature
+ssh_public_key = ""
+
+# Fill in the path to the private key of the ssh key (probably in your home)
+ssh_private_key_path = ""
+
+###################
+## These two are combined to form your URL: $faasd_domain.$tld
+#subdomain for your URL
+faasd_domain = "faasd"
+
+# top level domain
+tld = ""
+
+# Password for faasd
+faasd_password = ""
+
+###################
+# Cloudflare information
+# Zone id for cloudflare
+cloudflare_zone_id = ""
+
+# API token for cloudflare API
+cloudflare_api_token = ""
+
+# Email Address for cloudflare
+cloudflare_email = ""
